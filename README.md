@@ -3,7 +3,7 @@
   <a href="URL_DEL_ENLACE"><img src="https://cdn-images-1.medium.com/max/1200/1*DenJfjmLJ5drVjPLTqkHzQ.png" alt="Imagen"></a>
 </div>
 <div>
-    <h2 align="center"><a href="https://www.youtube.com/watch?v=MCU3oQKLS_g&list=RDfD73NJ_U6Jo&index=3">Definitions 📚</a></h2>
+    <h2 align="center"><a href="https://www.youtube.com/watch?v=7ukajubprdE&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=2">Definitions 📚</a></h2>
       <p>• The software architecture of a system is the set of structures necessary to reason about the system.</p>
       <p>• It is the set of design decisions important to organize the software and promote the desired quality attributes.</p>
       <p>• Architecture is about the important things. Whatever they are.</p>
