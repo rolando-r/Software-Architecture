@@ -206,7 +206,7 @@
   <img src="https://i.postimg.cc/qvrfp3x3/Captura-de-pantalla-2023-10-12-090529.png">
   <p></p>
 
-  <h5>Acoplamiento Patólogico</h5>
+  <h5>Acoplamiento Patólogico (No usar)</h5>
   <p></p>
 
   <h5>Acoplamiento Común</h5>
@@ -222,15 +222,15 @@
   <h5>Acoplamiento por Mensajes</h5>
   <p></p>
 
-  <h5>El acoplamiento ideal es que no exista.</h5>
+  <p>El acoplamiento ideal es que no exista.</p>
   
-  <p><a href="https://www.youtube.com/watch?v=0ggDGJTAFVs&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=4">Coupling ➰</a></p>
+  <p><a href="https://www.youtube.com/watch?v=0ggDGJTAFVs&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=4">Reference Video ➰</a></p>
   
   <h3>Cohesion</h3>
-  <p><a href="https://www.youtube.com/watch?v=bLEnvIBak60&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=7">Cohesion 🤝</a></p>
+  <p><a href="https://www.youtube.com/watch?v=bLEnvIBak60&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=7">Reference Video 🤝</a></p>
   
   <h3>SOLID</h3>
-  <p><a href="https://profile.es/blog/principios-solid-desarrollo-software-calidad/#Los_principios_SOLID">S.O.L.I.D 📙</a></p>
-  <p><a href="https://www.youtube.com/watch?v=rMlPvEhrHDs&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=2">S.O.L.I.D 🎥</a></p>
+  <p><a href="https://profile.es/blog/principios-solid-desarrollo-software-calidad/#Los_principios_SOLID">S.O.L.I.D Reference Video 📙</a></p>
+  <p><a href="https://www.youtube.com/watch?v=rMlPvEhrHDs&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=2">S.O.L.I.D Reference Video 🎥</a></p>
 
 </div>
