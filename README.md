@@ -200,27 +200,24 @@
 
   <h5>Acoplamiento Eferente</h5>
   <img src="https://i.postimg.cc/yxhBsXtk/Captura-de-pantalla-2023-10-12-090257.png">
-  <p></p>
+  <p>Un módulo es necesario para otro porque le provee algo que necesita.</p>
 
   <h5>Acoplamiento Aferente</h5>
   <img src="https://i.postimg.cc/qvrfp3x3/Captura-de-pantalla-2023-10-12-090529.png">
-  <p></p>
+  <p>Un módulo depende de otro porque necesita usar lo que el otro hace.</p>
 
   <h5>Acoplamiento Patólogico (No usar)</h5>
-  <p></p>
+  <p>Si los módulos están demasiado conectados, cambiar algo en uno puede afectar inesperadamente al otro. Queremos evitar esto.</p>
 
   <h5>Acoplamiento Común</h5>
   <img src="https://i0.wp.com/www.disrupciontecnologica.com/wp-content/uploads/2019/06/clasesCBO.png?resize=313%2C230&ssl=1">
-  <p></p>
+  <p>Varios módulos comparten algo, como una herramienta especial que todos usan.</p>
 
   <h5>Acoplamiento Sellado</h5>
-  <p></p>
+  <p>Cada módulo mantiene sus secretos adentro y solo muestra lo que otros necesitan saber.</p>
 
   <h5>Acoplamiento por Datos</h5>
-  <p></p>
-
-  <h5>Acoplamiento por Mensajes</h5>
-  <p></p>
+  <p>Los módulos comparten información entre ellos, como pasarse una pelota de un lado a otro.</p>
 
   <p>El acoplamiento ideal es que no exista.</p>
   
