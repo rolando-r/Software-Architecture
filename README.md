@@ -227,6 +227,13 @@
   <p><a href="https://www.youtube.com/watch?v=0ggDGJTAFVs&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=4">Reference Video ➰</a></p>
   
   <h3>Cohesion</h3>
+    <p>La cohesión de software es el grado en que elementos diferentes de un sistema permanecen unidos para alcanzar un mejor resultado que si trabajaran por separado. Se refiere a la forma en que podemos agrupar diversas unidades de software para crear una unidad mayor.</p>
+  <ul>
+  <li>Evitar Cohesión Causal en Clases de Utilidades: La cohesión causal, que ocurre cuando las funciones de una clase de utilidades están fuertemente interconectadas, debe evitarse. Esto puede llevar a un código difícil de entender y modificar. Es preferible buscar una organización más clara y separada de las funciones.</li>
+  <li>Cohesión Lógica en Manejadores de Eventos: La cohesión lógica se refiere a mantener juntas funciones que tienen propósitos similares. En el caso de manejadores de eventos, es esencial agrupar funciones relacionadas para manejar eventos específicos, evitando la dispersión de la lógica de manejo.</li>
+  <li>Cohesión por Procedimiento: Más es Mejor: La cohesión por procedimiento indica que las funciones dentro de un módulo deben estar estrechamente relacionadas. Un mayor nivel de cohesión por procedimiento generalmente se traduce en un código más modular y fácil de entender. La subdivisión de funciones en procedimientos específicos mejora la claridad y mantenibilidad del código.</li>
+  <li>Cohesión Funcional en Módulos: La cohesión funcional se refiere a la relación lógica entre funciones dentro de un módulo. Idealmente, los módulos deben tener una cohesión funcional alta, lo que significa que las funciones dentro del módulo deben trabajar juntas para lograr un propósito específico. Una cohesión funcional sólida simplifica la comprensión del módulo y su integración con otras partes del sistema.</li>
+  </ul>
   <p><a href="https://www.youtube.com/watch?v=bLEnvIBak60&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=7">Reference Video 🤝</a></p>
   
   <h3>SOLID</h3>
