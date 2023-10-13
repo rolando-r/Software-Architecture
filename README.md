@@ -191,7 +191,7 @@
   <p><a href="https://www.youtube.com/watch?v=NmRuhzyKCWM&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=5">Software quality attributes ✨</a></p>
   
   <h3>Coupling</h3>
-  <p>The degree of interdependence between modules or components within a system. In simpler terms, it indicates how different elements of a system are related or connected to each other.</p>
+  <p>The degree of interdependence between modules or components within a system. In simpler terms, it indicates how different elements of a system are related or connected to each other. The ideal coupling is that there is not.</p>
   <p>There are two main types of coupling:</p>
   <ul>
     <li>Tight Coupling: Occurs when two modules are highly interconnected and strongly depend on each other. If a change is made in one module, it is more likely to affect the other. This type of coupling can make the system less flexible and harder to maintain.</li>
@@ -218,8 +218,6 @@
 
   <h5>Acoplamiento por Datos</h5>
   <p>Los módulos comparten información entre ellos, como pasarse una pelota de un lado a otro.</p>
-
-  <p>El acoplamiento ideal es que no exista.</p>
   
   <p><a href="https://www.youtube.com/watch?v=0ggDGJTAFVs&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=4">Reference Video ➰</a></p>
   
