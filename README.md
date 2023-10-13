@@ -170,7 +170,7 @@
         <li>Fault tolerance.</li>
         <li>Variability.</li>
     </ul>
-  <h4>Attributes and architecture patterns</h4>
+  <h4>Attributes and architecture patterns ✨</h4>
 
   <p>In the dynamic landscape of software development, the proper selection of architecture attributes and patterns is crucial to achieve efficient and sustainable systems. This report explores the significance of these elements in designing robust architectures and provides an in-depth view of some key attributes and relevant architectural patterns.</p>
   <h5>Architecture Attributes</h5>
