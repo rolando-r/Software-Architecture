@@ -232,6 +232,20 @@
   <p><a href="https://www.youtube.com/watch?v=bLEnvIBak60&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=7">Reference Video 🤝</a></p>
   
   <h3>SOLID</h3>
+  <p>SOLID es un acrónimo que representa cinco principios de diseño de software que fueron introducidos por el ingeniero de software Robert C. Martin. Estos principios están destinados a guiar a los desarrolladores hacia la creación de código más limpio, modular y fácil de mantener. Aquí están los cinco principios SOLID:</p>
+  <ul>
+    <li>S: Single Responsibility Principle (SRP)</li>
+    <li>O: Open/Closed Principle (OCP)</li>
+    <li>L: Liskov Substitution Principle (LSP)</li>
+    <li>I: Interface Segregation Principle (ISP)</li>
+    <li>D: Dependency Inversion Principle (DIP)</li>
+  </ul>
+  <h4>Goals</h4>
+  <ul>
+    <li>Crear un software eficaz: que cumpla con su cometido y que sea robusto y estable.</li>
+    <li>Escribir un código limpio y flexible ante los cambios: que se pueda modificar fácilmente según necesidad, que sea reutilizable y mantenible.</li>
+    <li>Permitir escalabilidad: que acepte ser ampliado con nuevas funcionalidades de manera ágil.</li>
+  </ul>
   <p><a href="https://profile.es/blog/principios-solid-desarrollo-software-calidad/#Los_principios_SOLID">S.O.L.I.D Reference Video 📙</a></p>
   <p><a href="https://www.youtube.com/watch?v=rMlPvEhrHDs&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=2">S.O.L.I.D Reference Video 🎥</a></p>
 
