@@ -198,41 +198,41 @@
     <li>Loose Coupling: Refers to a more independent relationship between modules. Changes in one module have less impact on others, making the system more flexible and easier to maintain. It is a good practice to design systems with loose coupling to favor modularity and scalability.</li>
   </ul>
 
-  <h5>Acoplamiento Eferente</h5>
+  <h5>Efferent Coupling</h5>
   <img src="https://i.postimg.cc/yxhBsXtk/Captura-de-pantalla-2023-10-12-090257.png">
-  <p>Un módulo es necesario para otro porque le provee algo que necesita.</p>
+  <p>One module is necessary for another because it provides something it needs.</p>
 
-  <h5>Acoplamiento Aferente</h5>
+  <h5>Afferent Coupling</h5>
   <img src="https://i.postimg.cc/qvrfp3x3/Captura-de-pantalla-2023-10-12-090529.png">
-  <p>Un módulo depende de otro porque necesita usar lo que el otro hace.</p>
+  <p>One module depends on another because it needs to use what the other does.</p>
 
-  <h5>Acoplamiento Patólogico (No usar)</h5>
-  <p>Si los módulos están demasiado conectados, cambiar algo en uno puede afectar inesperadamente al otro. Queremos evitar esto.</p>
+  <h5>Pathological Coupling (Do not use)</h5>
+  <p>If the modules are too connected, changing something in one can unexpectedly affect the other. We want to avoid this.</p>
 
-  <h5>Acoplamiento Común</h5>
+  <h5>Common Coupling</h5>
   <img src="https://i0.wp.com/www.disrupciontecnologica.com/wp-content/uploads/2019/06/clasesCBO.png?resize=313%2C230&ssl=1">
-  <p>Varios módulos comparten algo, como una herramienta especial que todos usan.</p>
+  <p>Several modules share something, like a special tool that everyone uses.</p>
 
-  <h5>Acoplamiento Sellado</h5>
-  <p>Cada módulo mantiene sus secretos adentro y solo muestra lo que otros necesitan saber.</p>
+  <h5>Sealed Coupling</h5>
+  <p>Each module keeps its secrets inside and only shows what others need to know.</p>
 
-  <h5>Acoplamiento por Datos</h5>
-  <p>Los módulos comparten información entre ellos, como pasarse una pelota de un lado a otro.</p>
+  <h5>Data Coupling</h5>
+  <p>The modules share information with each other, like passing a ball back and forth.</p>
   
   <p><a href="https://www.youtube.com/watch?v=0ggDGJTAFVs&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=4">Reference Video ➰</a></p>
   
   <h3>Cohesion</h3>
-    <p>La cohesión de software es el grado en que elementos diferentes de un sistema permanecen unidos para alcanzar un mejor resultado que si trabajaran por separado. Se refiere a la forma en que podemos agrupar diversas unidades de software para crear una unidad mayor.</p>
+    <p>Software cohesion is the degree to which different elements of a system stay together to achieve a better result than if they worked separately. It refers to the way in which we can group various units of software to create a larger unit.</p>
   <ul>
-  <li>Evitar Cohesión Causal en Clases de Utilidades: La cohesión causal, que ocurre cuando las funciones de una clase de utilidades están fuertemente interconectadas, debe evitarse. Esto puede llevar a un código difícil de entender y modificar. Es preferible buscar una organización más clara y separada de las funciones.</li>
-  <li>Cohesión Lógica en Manejadores de Eventos: La cohesión lógica se refiere a mantener juntas funciones que tienen propósitos similares. En el caso de manejadores de eventos, es esencial agrupar funciones relacionadas para manejar eventos específicos, evitando la dispersión de la lógica de manejo.</li>
-  <li>Cohesión por Procedimiento: Más es Mejor: La cohesión por procedimiento indica que las funciones dentro de un módulo deben estar estrechamente relacionadas. Un mayor nivel de cohesión por procedimiento generalmente se traduce en un código más modular y fácil de entender. La subdivisión de funciones en procedimientos específicos mejora la claridad y mantenibilidad del código.</li>
-  <li>Cohesión Funcional en Módulos: La cohesión funcional se refiere a la relación lógica entre funciones dentro de un módulo. Idealmente, los módulos deben tener una cohesión funcional alta, lo que significa que las funciones dentro del módulo deben trabajar juntas para lograr un propósito específico. Una cohesión funcional sólida simplifica la comprensión del módulo y su integración con otras partes del sistema.</li>
+  <li>Avoid Causal Cohesion in Utility Classes: Causal cohesion, which occurs when the functions of a utility class are strongly interconnected, should be avoided. This can lead to code that is difficult to understand and modify. It is preferable to look for a clearer and more separate organization of functions.</li>
+  <li>Logical Cohesion in Event Handlers: Logical cohesion refers to keeping functions with similar purposes together. In the case of event handlers, it is essential to group related functions to handle specific events, avoiding the scattering of handling logic.</li>
+<li>Procedure Cohesion: More is Better: Procedure cohesion suggests that functions within a module should be closely related. A higher level of procedure cohesion generally results in more modular and easily understandable code. Subdividing functions into specific procedures improves the clarity and maintainability of the code.</li>
+<li>Functional Cohesion in Modules: Functional cohesion refers to the logical relationship between functions within a module. Ideally, modules should have high functional cohesion, meaning that functions within the module should work together to achieve a specific purpose. Strong functional cohesion simplifies the understanding of the module and its integration with other parts of the system.</li>
   </ul>
   <p><a href="https://www.youtube.com/watch?v=bLEnvIBak60&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=7">Reference Video 🤝</a></p>
   
   <h3>SOLID</h3>
-  <p>SOLID es un acrónimo que representa cinco principios de diseño de software que fueron introducidos por el ingeniero de software Robert C. Martin. Estos principios están destinados a guiar a los desarrolladores hacia la creación de código más limpio, modular y fácil de mantener. Aquí están los cinco principios SOLID:</p>
+  <p>SOLID is an acronym that represents five software design principles that were introduced by software engineer Robert C. Martin. These principles are intended to guide developers toward creating cleaner, more modular, and easier to maintain code. Here are the five SOLID principles:</p>
   <ul>
     <li>S: Single Responsibility Principle (SRP)</li>
     <li>O: Open/Closed Principle (OCP)</li>
@@ -242,11 +242,11 @@
   </ul>
   <h4>Goals</h4>
   <ul>
-    <li>Crear un software eficaz: que cumpla con su cometido y que sea robusto y estable.</li>
-    <li>Escribir un código limpio y flexible ante los cambios: que se pueda modificar fácilmente según necesidad, que sea reutilizable y mantenible.</li>
-    <li>Permitir escalabilidad: que acepte ser ampliado con nuevas funcionalidades de manera ágil.</li>
+    <li>Create effective software: that fulfills its purpose and is robust and stable.</li>
+    <li>Write clean and flexible code in the face of changes: that can be easily modified as needed, that is reusable and maintainable.</li>
+    <li>Allow scalability: that accepts being expanded with new functionalities in an agile manner.</li>
   </ul>
-  <p><a href="https://profile.es/blog/principios-solid-desarrollo-software-calidad/#Los_principios_SOLID">S.O.L.I.D Reference Video 📙</a></p>
+  <p><a href="https://profile.es/blog/principios-solid-desarrollo-software-calidad/#Los_principios_SOLID">S.O.L.I.D Reference 📙</a></p>
   <p><a href="https://www.youtube.com/watch?v=rMlPvEhrHDs&list=PLFHx3afTdaY3tPDnw0O0WDu1c3PSuMLNf&index=2">S.O.L.I.D Reference Video 🎥</a></p>
 
 </div>
